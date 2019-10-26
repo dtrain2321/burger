@@ -7,8 +7,9 @@ var burger = require("../models/burger-model.js");
 
 // Create all our routes and set up logic within those routes where required.
 router.get("/", function(req, res) {
-  console.log('called')
   burger.all(function(data) {
+    console.log('cb called')
+
     var hbsObject = {
       //burger object for dom JS
       burgers: data
