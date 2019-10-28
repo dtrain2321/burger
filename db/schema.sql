@@ -1,8 +1,4 @@
-DROP DATABASE IF EXISTS burgers_db;
--- Database Creation
-CREATE DATABASE burgers_db;
-
-USE burgers_db;
+USE JAWS_DB_NAME;
 
 
 -- Table Creation
